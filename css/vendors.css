@@ -1,0 +1,122 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block
+}
+
+audio,
+
+video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden] {
+    display: none
+}
+
+
+*,
+:after,
+:before {
+    box-sizing: border-box
+}
+
+:root {
+    font-size: 16px
+}
+
+.frame,
+body,
+html,
+main {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    position: fixed;
+    top: 0;
+    left: 0;
+    --color-text: #fff;
+    --color-bg: #0e0e0f;
+    --color-link: #0f51e4;
+    --color-link-hover: #ebd944;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    font-family: Futura, futura-pt, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+a {
+    
+    color: inherit;
+    opacity: 1;
+    padding-bottom: 3px;
+    position: relative;
+    text-decoration: none;
+    transition: color, opacity .12s
+}
+
+a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift 2s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: auto 3px;
+   
+   
+}
+
+
+
+.frame__demos {
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 0 2.5rem;
+    margin: 1rem 0;
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    color:white;
+    z-index: 1000000;
+    
+    
+}
+
+.frame__demo {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border-bottom: 1px solid orange;
+}
+
+.frame__demo--current,
+.frame__demo:hover {
+    color: red;
+    padding: 2px;
+   border-bottom: 0;
+
+    
+}
+
+.frame__demo--current {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift 2s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: auto 3px;
+    transform: none;
+
+}
