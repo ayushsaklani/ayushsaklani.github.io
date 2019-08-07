@@ -66,7 +66,7 @@ a {
     
     color: inherit;
     opacity: 1;
-    
+    padding-bottom: 3px;
     position: relative;
     text-decoration: none;
     transition: color, opacity .12s
@@ -77,7 +77,6 @@ a:hover {
     background-position: 0 100%;
     background-repeat: repeat-x;
     background-size: auto 3px;
-    padding-bottom: 3px;
    
    
 }
@@ -88,7 +87,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
    
-    padding: 0 2.5rem:;
+    padding: 0 2.5rem;
     margin: 1rem 0;
     position: absolute;
     top: 2rem;
@@ -107,12 +106,9 @@ a:hover {
 
 .frame__demo--current,
 .frame__demo:hover {
-    color: #AF456D;
-    margin-top: 1rem;
-    margin-right: 1rem;
+    color: red;
+    padding: 2px;
    border-bottom: 0;
-   transition: border-bottom, color 0.7s;
-   
 
     
 }

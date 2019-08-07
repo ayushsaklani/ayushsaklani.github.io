@@ -371,9 +371,9 @@ body {
 
 .content__item-link{
     position: relative;
-    right:-4em;
+    
     font-size: var(--size-title)/10;
-    top:-15em;
+    bottom:-3em;
     align-self: center;
    
 }
