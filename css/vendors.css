@@ -50,14 +50,14 @@ html {
     height: 100%;
     line-height: 1.7;
     margin: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding: 0;
     width: 100%
 }
 
 @media only screen and (max-width:600px) {
     body {
-        overflow-y: auto;
+        /*overflow-y: auto;*/
         scroll-behavior: smooth;
         transform-style: flat;
         -webkit-overflow-scrolling: touch
