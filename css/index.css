@@ -21,83 +21,6 @@ body {
 
 
 
-/**/
- /**/
- *,
-:after,
-:before {
-    box-sizing: border-box;
-    position: relative
-}
-
-:root {
-    --baseline: 1;
-    --degs: 8deg;
-    --duration: 0.4s;
-    --easing: cubic-bezier(0.7, 0, 0.2, 1);
-    --loaded: 100%;
-    --mouse-x: 0;
-    --mouse-y: 0;
-    --rot-x: 1;
-    --rot-xvw: -1vw;
-    --rot-y: -1;
-    --rot-yvw: 1vw
-}
-
-::selection {
-    background: rgba(141, 236, 193, .99);
-    color: #fff
-}
-
-
-h2,
-h3,
-p {
-    pointer-events: all!important
-}
-
-
-html {
-    scroll-behavior: smooth;
-    touch-action: manipulation
-}
-
-body,
-html {
-    background-color: #000;
-    color: #000;
-    font-family: montserrat_blackregular;
-    font-family: estebanregular;
-    font-size: 20px;
-    height: 100%;
-    line-height: 1.7;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-    width: 100%
-}
-
-@media only screen and (max-width:600px) {
-    body {
-        overflow-y: auto;
-        scroll-behavior: smooth;
-        transform-style: flat;
-        -webkit-overflow-scrolling: touch
-    }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-family: montserrat_blackregular, sans-serif;
-    font-weight: 900;
-    line-height: .7;
-    margin: 0;
-    padding: 0
-}
-
 
 #app {
     align-items: center;
@@ -127,7 +50,7 @@ h5 {
     grid-column-gap: 5vw;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     min-width: 320px;
-    pointer-events: auto;
+    pointer-events: all;
     position: absolute;
     scroll-behavior: smooth;
     transform: translateZ(-229px) scale(1.2);
