@@ -234,7 +234,7 @@ a {
     
     color: inherit;
     opacity: 1;
-    padding-bottom: 3px;
+    /*padding-bottom: 3px;*/
     position: relative;
     text-decoration: none;
     transition: color, opacity .12s
@@ -275,7 +275,7 @@ a:hover {
 .frame__demo--current,
 .frame__demo:hover {
     color: red;
-    padding: 2px;
+ 
    border-bottom: 0;
 
     
@@ -287,5 +287,6 @@ a:hover {
     background-repeat: repeat-x;
     background-size: auto 3px;
     transform: none;
+     border-bottom: 0;
 
 }
