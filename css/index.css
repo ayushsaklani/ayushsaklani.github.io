@@ -1,17 +1,28 @@
+
+
+
 body {
-    --color-text: #fff;
+   
+   --color-text: #fff;
     --color-bg: #0e0e0f;
     --color-bg-2: #242635;
     --color-bg-3: #dc2c5a;
     --color-link: #dc2c5a;
     --color-link-hover: #ff0060;
-    overflow:hidden;
-    width:100vw;
-    height:100vh;
+    position:fixed;
 }
 
 
-
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 800px);
+    background: radial-gradient(ellipse at 500% 0, var(--color-bg) 50%, var(--color-bg-2) 80%, var(--color-bg-3) 100%);
+    z-index: -2;
+    transform: translateY(-800px)
+}
 
 
 #app {
@@ -81,6 +92,7 @@ body {
         top: 15vh;
         transform: none;
         width: 100vw;
+
         
     }
 }

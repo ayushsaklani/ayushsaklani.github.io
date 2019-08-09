@@ -1,6 +1,4 @@
 
-/**/
- /**/
  *,
 :after,
 :before {
@@ -42,22 +40,20 @@ html {
 
 body,
 html {
-    background-color: #000;
-    color: #000;
-    font-family: montserrat_blackregular;
-    font-family: estebanregular;
+   
+    
     font-size: 20px;
-    height: 100%;
+    
     line-height: 1.7;
     margin: 0;
-    /*overflow: hidden;*/
+    
     padding: 0;
     width: 100%
 }
 
 @media only screen and (max-width:600px) {
     body {
-        /*overflow-y: auto;*/
+        overflow-y: auto;
         scroll-behavior: smooth;
         transform-style: flat;
         -webkit-overflow-scrolling: touch
@@ -76,7 +72,7 @@ h5 {
     padding: 0
 }
 
-.frame,
+
 body,
 html,
 main {
@@ -85,14 +81,10 @@ main {
 }
 
 body {
-    position: fixed;
+    
     top: 0;
     left: 0;
-    --color-text: #fff;
-    --color-bg: #0e0e0f;
-    --color-link: #0f51e4;
-    --color-link-hover: #ebd944;
-    color: var(--color-text);
+    
     background-color: var(--color-bg);
     font-family: Futura, futura-pt, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
