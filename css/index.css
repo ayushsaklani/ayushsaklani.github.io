@@ -1,5 +1,63 @@
 
 
+/*
+
+
+
+/**/
+
+body {
+    --color-text: #fff;
+    --color-bg: #0e0e0f;
+    --color-bg-2: #242635;
+    --color-bg-3: #dc2c5a;
+    --color-link: #dc2c5a;
+    --color-link-hover: #ff0060;
+    overflow:hiden;
+    width:100vw;
+    height:100vh;
+}
+
+
+
+
+
+body,
+html {
+    background-color: #000;
+    color: #000;
+    font-family: montserrat_blackregular;
+    font-family: estebanregular;
+    font-size: 20px;
+    height: 100%;
+    line-height: 1.7;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%
+}
+
+@media only screen and (max-width:600px) {
+    body {
+        overflow-y: auto;
+        scroll-behavior: smooth;
+        transform-style: flat;
+        -webkit-overflow-scrolling: touch
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: montserrat_blackregular, sans-serif;
+    font-weight: 900;
+    line-height: .7;
+    margin: 0;
+    padding: 0
+}
+
 
 body {
    
@@ -10,6 +68,7 @@ body {
     --color-link: #dc2c5a;
     --color-link-hover: #ff0060;
     position:fixed;
+
 }
 
 
@@ -87,7 +146,7 @@ body {
         height: 138vh;
         min-height: 943px;
         
-        overflow-y:scroll;
+        overflow:scroll;
         overflow-scrolling:touch; 
         padding: 12vw;
         position: absolute;
