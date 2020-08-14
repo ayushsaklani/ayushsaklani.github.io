@@ -8,7 +8,7 @@ const RESOURCES = {
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "2bca5ec802e40d3f4b60343e346cedde",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "2aa350bd2aeab88b601a593f793734c0",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
-"assets/NOTICES": "67666e03b9fbd3b3afd58b43de5981e0",
+"assets/NOTICES": "e37dca3b939317efedfe5b305862864b",
 "assets/AssetManifest.json": "801125fca546f506babac9af4ec061ba",
 "assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -19,7 +19,7 @@ const RESOURCES = {
 "index.html": "596235eb9a10c6919a6d1a68725043b9",
 "/": "596235eb9a10c6919a6d1a68725043b9",
 "manifest.json": "7e17c638a818ec8be948f90ea8b550ce",
-"main.dart.js": "22609833f13f6b28ce34bae1f7fa0426"
+"main.dart.js": "c5d3f79844371431bbdb9336bd2fb0f6"
 };
 
 // The application shell files that are downloaded before a service worker can
